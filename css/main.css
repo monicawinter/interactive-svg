@@ -17,34 +17,34 @@ html {
 }
 
 .left-eye {
-  animation: shifty-eyes 0.5s infinite linear alternate;
+  animation: shifty-eyes 1s infinite linear alternate;
 }
 
 .right-eye {
-  animation: shifty-eyes 0.5s infinite linear alternate;
+  animation: shifty-eyes 1s infinite linear alternate;
 }
 
 @keyframes shifty-eyes {
 
-0% { transform: translateX(-10px); }
+  0% { transform: translateX(-10px); }
 
-100% { transform: translateX(10px); }
+  100% { transform: translateX(10px); }
 }
 
 .left-ear {
-  transform: translate(0px,5px);
+  transform: translate(0, 5px);
   transition: all .25s linear;
 }
 
 .right-ear {
-  transform: translate(0px,5px);
+  transform: translate(0, 5px);
   transition: all .25s linear;
 }
 
-.bear:hover .left-ear{
-  transform: translate(0px,-5px);
+.bear:hover .left-ear {
+  transform: translate(0, -5px);
 }
 
-.bear:hover .right-ear{
-  transform: translate(0px,-5px);
+.bear:hover .right-ear {
+  transform: translate(0, -5px);
 }
